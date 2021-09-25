@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --font-primary: 'Red Hat Display', sans-serif, Arial;
+    --color__0000: hsla(0, 0%, 0%, 1);
+    --color__0100: hsla(345, 6%, 13%, 1);
+    --color__0200: hsla(223, 46%, 23%, 1);
+    --color__1100: hsla(240, 74%, 46%, 1);
+    --color__1200: hsla(245, 75%, 52%, 1);
+    --color__1300: hsla(245, 83%, 68%, 1);
+    --color__1400: hsla(226, 100%, 71%, 1);
+    --color__1500: hsla(281, 83%, 72%, 1);
+    --color__3100: hsla(223, 23%, 55%, 1);
+    --color__4100: hsla(163, 75%, 69%, 1);
+    --color__4200: hsla(225, 76%, 93%, 1);
+    --color__4300: hsla(225, 100%, 92%, 1);
+    --color__4400: hsla(225, 100%, 94%, 1);
+    --color__4500: hsla(228, 100%, 99%, 1);
+    --color__4600: hsla(0, 0%, 100%, 1);
+  }
+  
