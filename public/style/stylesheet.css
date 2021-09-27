@@ -1,7 +1,9 @@
 @import url(./theme.css);
+@import url(./btn.css);
+
 
 .attribution {
-  font-size: 11px;
+  font-size: .5rem;
   text-align: center;
 }
 .attribution a {
@@ -9,15 +11,64 @@
 }
 
 html {
-  font-size: 8px;
+  font-family: var(--font-primary);
+  padding: 2rem;
+}
+
+/*
+ html {
+  font-size: 2rem;
+  color: green;
+}
+
+html a {
+  font-size: 2rem;
   font-family: var(--font-primary);
 }
 
-p::first-letter {
+body::first-letter {
   color: blue;
   float: left;
   font-size: 2.6em;
   font-weight: bold;
   line-height: 1;
   margin-inline-end: 0.2rem;
+}
+ */
+
+.annual-plan {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color__4500);
+  border-radius: 11px;
+  align-items: center;
+  padding: 2rem;
+}
+
+.annual-plan__content--left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.annual-plan__content-right {
+  margin-right: 2rem;
+}
+
+.annual-plan__label, .annual-plan__price {
+  padding-left: 2.5rem;
+  padding-bottom: .375rem;
+  font-size: 1rem;
+}
+
+.annual-plan__label {
+  font-weight: 900;
+}
+
+.annual-plan__price {
+  font-weight: 500;
+}
+
+.annual-plan__change_link {
+  color: var(--color__1200)
 }
