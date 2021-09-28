@@ -13,39 +13,48 @@
 html {
   display: flex;
   font-family: var(--font-primary);
-  padding: 2rem;
+  padding: 16rem;
+  justify-content: center;
+  background: url("/public/images/pattern-background-mobile.svg") no-repeat top;
+  background-color: var(--color__4400);
 }
 
 .bg__image {
-  background: url("/public/images/pattern-background-mobile.svg") no-repeat
-    center/cover;
-  margin: 0px;
-  height: 50%;
+  /* margin: 0px; */
+  /* height: 50%; */
 }
 
 body {
-  background-color: var(--color__4400);
+  justify-items: center;
 }
 
 .container-out {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  width: 450px;
+  justify-items: center;
 }
 
 .container-in {
-  border: solid black;
+  /* border: solid black; */
+  background-color: white;
   padding: 3rem;
+  border-radius: 0 0 20px 20px;
+  box-shadow:
+  0px .5rem .5rem 0px  rgba(0, 0, 0, 25%)
+  ,0px 2.5rem 2.5rem 0px  hsla(var(--color__1200_values), 19.03%);  
 }
 
 @media (min-width: 500px) {
-  .bg__image {
-    background: url("/public/images/pattern-background-desktop.svg");
+  html {
+    background: url("/public/images/pattern-background-desktop.svg") no-repeat top;
+  background-color: var(--color__4400);
   }
 }
 
 .hero {
-  border-radius: 11px 11px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
+  /* background-color: var(--color__4300); */
 }
 
 h1 {
