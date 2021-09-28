@@ -7,19 +7,16 @@
     border-radius: 11px;
     align-items: center;
     padding: 2rem;
+    margin: 2rem;
   }
   
   .annual-plan__content--left {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: solid 1px blue
-  }
-  
-  .annual-plan__content--right {
-      /* margin-right: 2rem; */
-      border: solid 1px green;
+    /* border: solid 1px blue; */
 }
+
 
 .annual-plan__label, .annual-plan__price {
     padding-left: 2.5rem;
@@ -37,6 +34,10 @@
     color: var(--color__3100);
 }
 
+.annual-plan__content--right {
+    /* margin-right: 2rem; */
+    /* border: solid 1px green; */
+}
 .annual-plan__change_link {
     color: var(--color__1200);
     text-decoration: none;

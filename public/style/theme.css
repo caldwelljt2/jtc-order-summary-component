@@ -1,14 +1,18 @@
+/* assinged fonts */
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
+
+/* variables */
 :root {
   font-size: 8px;
   --font-primary: "Red Hat Display", sans-serif, Arial;
   --color__0000: hsla(0, 0%, 0%, 1);
+  --color__0010: hsla(0, 0%, 0%, 0.25);
   --color__0100: hsla(345, 6%, 13%, 1);
   --color__0200: hsla(223, 46%, 23%, 1);
   --color__1100: hsla(240, 74%, 46%, 1);
-  --color__1200_values: 245, 75%, 52%;
-  --color__1200: hsla(var(--color__1200_values), 1);
+  --color__1200: hsla(245, 75%, 52%, 1);
+  --color__1210: hsla(245, 75%, 52%, 19.03%);
   --color__1300: hsla(245, 83%, 68%, 1);
   --color__1400: hsla(226, 100%, 71%, 1);
   --color__1500: hsla(281, 83%, 72%, 1);
@@ -22,16 +26,9 @@
   --color__4599: hsla(0, 0%, 100%, 1);
 }
 
+/* universal safty */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-img {
-  max-width: 100%
-}
-
-@media (min-wdith: 500px) {
-  
 }

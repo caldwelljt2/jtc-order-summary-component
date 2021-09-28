@@ -1,14 +1,9 @@
 @import url(./theme.css);
 @import url(./btn.css);
 @import url(./annual-plan.css);
+@import url(./card.css);
+@import url(./content.css);
 
-.attribution {
-  font-size: 0.5rem;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 html {
   display: flex;
@@ -17,79 +12,21 @@ html {
   justify-content: center;
   background: url("/public/images/pattern-background-mobile.svg") no-repeat top;
   background-color: var(--color__4400);
+  background-size: 100%
 }
 
-.bg__image {
-  /* margin: 0px; */
-  /* height: 50%; */
-}
-
-body {
-  justify-items: center;
-}
-
-.container-out {
-  display: flex;
-  flex-direction: column;
-  width: 450px;
-  justify-items: center;
-}
-
-.container-in {
-  /* border: solid black; */
-  background-color: white;
-  padding: 3rem;
-  border-radius: 0 0 20px 20px;
-  box-shadow:
-  0px .5rem .5rem 0px  rgba(0, 0, 0, 25%)
-  ,0px 2.5rem 2.5rem 0px  hsla(var(--color__1200_values), 19.03%);  
-}
-
-@media (min-width: 500px) {
+@media (min-width: 760px) {
   html {
     background: url("/public/images/pattern-background-desktop.svg") no-repeat top;
-  background-color: var(--color__4400);
+    background-size: 100%; 
+    background-color: var(--color__4400);
   }
 }
 
-.hero {
-  border-radius: 20px 20px 0px 0px;
-  /* background-color: var(--color__4300); */
-}
-
-h1 {
+.attribution {
+  font-size: 0.5rem;
   text-align: center;
-  padding: 4rem 0vh 2rem 0rem;
-  font-weight: 900;
-  color: var(--color__0200);
-  font-size: 3vh;
 }
-
-p {
-  text-align: center;
-  font-weight: 500;
-  font-size: 2vh;
-  color: var(--color__3100);
-  padding: 2vh;
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
-
-/*
- html {
-  font-size: 2rem;
-  color: green;
-}
-
-html a {
-  font-size: 2rem;
-  font-family: var(--font-primary);
-}
-
-body::first-letter {
-  color: blue;
-  float: left;
-  font-size: 2.6em;
-  font-weight: bold;
-  line-height: 1;
-  margin-inline-end: 0.2rem;
-}
- */
