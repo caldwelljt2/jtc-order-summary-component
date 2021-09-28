@@ -17,4 +17,4 @@
 
 # Adding my own folder since I saved the zip file
 --screenshots\order-summary-component-figma.zip
-.zip
+*.zip
