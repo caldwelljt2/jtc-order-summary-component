@@ -15,10 +15,6 @@
     text-decoration: none;
 }
 
-/* .btn a {
-    nothing: nothing;
-} */
-
 .btn:hover {
     background-color: var(--color__1300);
 }
