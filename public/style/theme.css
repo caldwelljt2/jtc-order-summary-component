@@ -20,3 +20,17 @@
   --color__4500: hsla(228, 100%, 99%, 1);
   --color__4599: hsla(0, 0%, 100%, 1);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%
+}
+
+@media (min-wdith: 500px) {
+  
+}

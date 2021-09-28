@@ -1,9 +1,9 @@
 @import url(./theme.css);
 @import url(./btn.css);
-
+@import url(./annual-plan.css);
 
 .attribution {
-  font-size: .5rem;
+  font-size: 0.5rem;
   text-align: center;
 }
 .attribution a {
@@ -11,8 +11,57 @@
 }
 
 html {
+  display: flex;
   font-family: var(--font-primary);
   padding: 2rem;
+}
+
+.bg__image {
+  background: url("/public/images/pattern-background-mobile.svg") no-repeat
+    center/cover;
+  margin: 0px;
+  height: 50%;
+}
+
+body {
+  background-color: var(--color__4400);
+}
+
+.container-out {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.container-in {
+  border: solid black;
+  padding: 3rem;
+}
+
+@media (min-width: 500px) {
+  .bg__image {
+    background: url("/public/images/pattern-background-desktop.svg");
+  }
+}
+
+.hero {
+  border-radius: 11px 11px 0px 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 4rem 0vh 2rem 0rem;
+  font-weight: 900;
+  color: var(--color__0200);
+  font-size: 3vh;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2vh;
+  color: var(--color__3100);
+  padding: 2vh;
 }
 
 /*
@@ -35,40 +84,3 @@ body::first-letter {
   margin-inline-end: 0.2rem;
 }
  */
-
-.annual-plan {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--color__4500);
-  border-radius: 11px;
-  align-items: center;
-  padding: 2rem;
-}
-
-.annual-plan__content--left {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.annual-plan__content-right {
-  margin-right: 2rem;
-}
-
-.annual-plan__label, .annual-plan__price {
-  padding-left: 2.5rem;
-  padding-bottom: .375rem;
-  font-size: 1rem;
-}
-
-.annual-plan__label {
-  font-weight: 900;
-}
-
-.annual-plan__price {
-  font-weight: 500;
-}
-
-.annual-plan__change_link {
-  color: var(--color__1200)
-}
