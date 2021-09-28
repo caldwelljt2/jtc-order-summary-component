@@ -15,7 +15,7 @@ html {
   background-size: 100%
 }
 
-@media (min-width: 760px) {
+@media (min-width: 784px) {
   html {
     background: url("/public/images/pattern-background-desktop.svg") no-repeat top;
     background-size: 100%; 
