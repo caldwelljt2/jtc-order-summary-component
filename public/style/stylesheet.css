@@ -8,7 +8,7 @@
 html {
   display: flex;
   font-family: var(--font-primary);
-  padding: 16rem;
+  padding-top: 16rem;
   justify-content: center;
   background: url("../images/pattern-background-mobile.svg") no-repeat top;
   background-color: var(--color__4400);
